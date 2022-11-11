@@ -66,7 +66,7 @@ function DayTimePicker({
                 <DayIcon /> {dateFns.format(pickedDay, 'dddd, MMMM Do, YYYY')}
               </p>
               <p>
-                <PopupClose onClick={handleClosePickTime}>Go Back</PopupClose>
+                <PopupClose onClick={handleClosePickTime}>Zurück</PopupClose>
               </p>
             </PopupHeader>
 
@@ -93,7 +93,7 @@ function DayTimePicker({
               {!isDone && (
                 <p>
                   <PopupClose disabled={isLoading} onClick={handleCloseConfirm}>
-                    Go Back
+                    Zurück
                   </PopupClose>
                 </p>
               )}
@@ -157,7 +157,7 @@ DayTimePicker.propTypes = {
 };
 
 DayTimePicker.defaultProps = {
-  confirmText: 'Schedule',
+  confirmText: 'Termin buchen',
   loadingText: 'Scheduling..',
   doneText: 'Your event has been scheduled!',
   theme: {
