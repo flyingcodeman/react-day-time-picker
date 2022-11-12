@@ -9,8 +9,7 @@
     "lint:format": "npm run lint -- --fix",
     "start": "rimraf .cache dev && parcel docs/index.html --out-dir dev",
     "build-docs": "parcel build docs/index.html",
-    "build-lib": "babel src --out-dir lib",
-    "prepare": "npm run build --force"
+    "build-lib": "babel src --out-dir lib"
   },
   "main": "lib/index.js",
   "files": [
