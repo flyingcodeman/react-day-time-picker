@@ -63,7 +63,6 @@ typings/
 # parcel
 .cache
 dev
-lib
 
 # VSCode
 jsconfig.json
