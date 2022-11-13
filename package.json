@@ -10,7 +10,7 @@
     "start": "rimraf .cache dev && parcel docs/index.html --out-dir dev",
     "build-docs": "parcel build docs/index.html",
     "build-lib": "babel src --out-dir lib",
-    "prepare": "npm run build"
+    "prepare": "npm run build-lib"
   },
   "main": "lib/index.js",
   "files": [
@@ -28,7 +28,8 @@
   "author": "Daniël Illouz <daniel.illouz@me.com> (https://www.danillouz.dev/)",
   "contributors": [
     "Daniël Illouz <daniel.illouz@me.com>",
-    "Dinos Theodorou <dinostheo@gmail.com>"
+    "Dinos Theodorou <dinostheo@gmail.com>",
+    "Simon Koenig <hello@koenigsimon.com>"
   ],
   "license": "MIT",
   "bugs": {
