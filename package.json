@@ -10,8 +10,7 @@
     "start": "rimraf .cache dev && parcel docs/index.html --out-dir dev",
     "build-docs": "parcel build docs/index.html",
     "build-lib": "babel src --out-dir lib",
-    "prepare": "npm run build-lib",
-    "build": "npm run build"
+    "prepare": "npm run build-lib"
   },
   "main": "lib/index.js",
   "files": [
